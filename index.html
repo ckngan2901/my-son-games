@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Game học Kanji</title>
+
+<style>
+body{
+    font-family:sans-serif;
+    text-align:center;
+    background:#f0f8ff;
+}
+
+button{
+    font-size:24px;
+    margin:10px;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>漢字ゲーム</h1>
+
+<p>「犬」は tiếng Việt là gì?</p>
+
+<button onclick="check(true)">Con chó</button>
+<button onclick="check(false)">Con mèo</button>
+
+<script>
+function check(correct){
+    if(correct){
+        alert("Chính xác 🎉");
+    }else{
+        alert("Sai rồi 😢");
+    }
+}
+</script>
+
+</body>
+</html>
